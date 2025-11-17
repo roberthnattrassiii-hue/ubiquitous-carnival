@@ -1,0 +1,135 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    font-family: 'lucida sans', sans-serif;
+}
+/* --- header --- */
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    background: purple;
+    background: linear-gradient(90deg, rgb(1, 1, 105) 0%, rgb(54, 6, 213) 100%);
+}
+
+.header_logo {
+    color: white;
+}
+@media screen and (min-width: 275px) {
+    .header {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+.header_buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.header_buttons-header_buttons-submit {
+    background: orange;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 0;
+    font-size: medium;
+}
+.header_buttons-header_buttons-submit:hover {
+    background: darkorange;
+    cursor: pointer;
+    opacity: .5;
+}
+.header_buttons-header_buttons-signIn {
+    background: rgb(4, 185, 4);
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border: 0;
+    font-size: medium;
+}
+.header_buttons-header_buttons-signIn:hover {
+    background: darkgreen;
+    cursor: pointer;
+    opacity: .5;
+}
+@media screen and (min-width: 300px) {
+    .header_buttons {
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+}
+/* --- main container --- */
+.main_container {
+    margin: auto;
+}
+/* --- search --- */
+.search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 20px;
+    background-color: rgb(234, 234, 247);
+    font-size: larger;
+   
+}
+.search_input {
+    width: 480px;
+    padding: 10px 40px 10px 20px;
+    border: 0px solid rgb(235, 232, 232);
+    border-radius: 20px;
+    font-size: large;
+    
+}
+.search_searchIcon{
+    position: relative;
+    right: 40px;
+}
+
+/* --- FAQ --- */
+.faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 1200px;
+    padding: 20px 20px 20px 20px;
+}
+.faq_list {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   list-style-type: none;
+   justify-content: center;
+}
+.faq_list-item {
+    display: flex;
+    min-height: 8rem;
+    border-radius: 5px;
+    width: 300px;
+    gap: 2rem;
+    padding: 10px;
+    border: 1px solid rgb(200, 200, 200);
+}
+.faq_list-item-img{
+    padding: 10px 0 10px 10px;
+}
+/* --- footer --- */
+.footer{
+    background: linear-gradient(90deg, #182848 0%, #3c00bc 100%);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer_content{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer_columns
